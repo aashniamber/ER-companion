@@ -85,7 +85,7 @@ export default function RootLayout({
 
               <div className="border-t border-gray-300 pt-6 text-center text-sm text-gray-600">
                 <p>
-                  © 2024 ER Companion. Built to empower patients and reduce
+                  © 2026 ER Companion. Built to empower patients and reduce
                   healthcare anxiety.
                 </p>
               </div>
