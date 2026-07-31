@@ -63,7 +63,7 @@ export default function Home() {
             </div>
 
             {/* RIGHT COLUMN - Topics */}
-            <div className="space-y-6">
+            <div className="space-y-11">
               {/* Tests */}
               <Link href="/tests">
                 <div className="bg-white/80 hover:bg-white rounded-2xl p-6 border-2 border-teal-200 hover:border-teal-400 transition-all cursor-pointer">
