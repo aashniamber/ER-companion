@@ -1,6 +1,26 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+import { Fraunces } from 'next/font/google';
+
+const fraunces = Fraunces({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  // ... existing metadata
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        {/* ... existing head content */}
+      </head>
+      <body className={`${fraunces.className} bg-cream`}>
+        {/* ... rest of body */}
+      </body>
+    </html>
+  );
+}
 export const metadata: Metadata = {
   title: 'ER Companion - Your Guide Through the Emergency Department',
   description:
