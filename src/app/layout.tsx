@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={`${fraunces.className} bg-cream`}>
         <div className="min-h-screen flex flex-col">
           {/* Header */}
-          <header className="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-700 text-white sticky top-0 z-50 shadow-lg">
+         <header className="bg-gradient-to-r from-blue-500 via-blue-800 to-blue-500 text-white sticky top-0 z-50 shadow-lg">
             <div className="max-w-6xl mx-auto px-4 py-4">
               <a
                 href="/"
