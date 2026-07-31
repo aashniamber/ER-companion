@@ -44,7 +44,7 @@ export default function Home() {
             ER Companion
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            This app will help you understand what&rsquo;s happening around you and answer questions about tests.
+            Understand your emergency room journey, one step at a time.
           </p>
         </section>
 
