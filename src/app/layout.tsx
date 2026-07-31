@@ -29,22 +29,19 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           {/* Header */}
         <header className="bg-blue-800 text-white sticky top-0 z-50 shadow-lg">
-            <div className="max-w-6xl mx-auto px-4 py-4">
-              <a
-                href="/"
-                className="flex items-center gap-2 hover:opacity-90 transition-opacity"
-              >
-                <span className="text-3xl">🏥</span>
-                <div>
-                  <h1 className="text-2xl font-bold">ER Companion</h1>
-                  <p className="text-xs opacity-90">
-                    Your Guide Through the Emergency Department
-                  </p>
-                </div>
-              </a>
-            </div>
-          </header>
-
+  <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
+      <span className="text-3xl">🏥</span>
+      <div>
+        <h1 className="text-2xl font-bold">ER Companion</h1>
+        <p className="text-xs opacity-90">Your Guide Through the Emergency Department</p>
+      </div>
+    </a>
+    <a href="/about" className="bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg font-semibold transition-colors">
+      About
+    </a>
+  </div>
+</header>
           {/* Main Content */}
           <main className="flex-1">{children}</main>
 
