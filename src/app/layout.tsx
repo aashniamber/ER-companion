@@ -1,11 +1,10 @@
-import type { Metadata } from 'next';
-import './globals.css';
-
-import { Fraunces } from 'next/font/google';
-
-const fraunces = Fraunces({ subsets: ['latin'] });
-
-export const metadata: Metadata = {
+1  import type { Metadata } from 'next';
+2  import { Fraunces } from 'next/font/google';
+3  import './globals.css';
+4  
+5  const fraunces = Fraunces({ subsets: ['latin'] });
+6  
+7  export const metadata: Metadata = {
   // ... existing metadata
 };
 
