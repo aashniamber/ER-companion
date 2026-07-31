@@ -37,13 +37,14 @@ export default function About() {
             <div className="bg-white/80 rounded-3xl p-8 border-2 border-sage-200">
               <div className="flex items-start gap-4 mb-4">
                 <Brain className="text-sage-600 flex-shrink-0" size={32} />
-                <h2 className="text-3xl font-bold text-gray-800">Our Mission</h2>
+                <h2 className="text-3xl font-bold italic text-gray-800">What Happens Now?</h2>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                ER Companion exists to reduce anxiety and confusion during emergency department visits. We believe that patients who understand what's happening around them make better decisions, communicate more effectively with their care team, and experience less stress during an already difficult time.
-              </p>
+It's often the first question people have after walking into an emergency room.
+
+One moment they're checking in. The next, blood is being drawn, a CT scan is ordered, or unfamiliar medical terms are being used. For many patients and families, an emergency department visit can feel overwhelming.              </p>
               <p className="text-gray-700 leading-relaxed mt-4">
-                <strong>We don't replace doctors. We empower patients.</strong> Our platform is designed to complement—not substitute—medical care by providing clear, accessible education about ER processes, tests, procedures, and medical terminology.
+                <strong>We don't replace doctors. We empower patients.</strong> The platform provides clear, easy-to-understand explanations about what comes next, why a test was ordered, or what a medication does, without the medical jargon.
               </p>
             </div>
 
