@@ -43,7 +43,7 @@ export default function Home() {
 
         {/* Hero */}
         <section className="py-8 px-2">
-          <div className="max-w-4xl mx-auto text-center mb-1">
+          <div className="max-w-4xl mx-auto text-center mb-0">
             <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 animate-fade-in">
               Where Are You in Your ER Visit?
             </h2>
@@ -57,7 +57,7 @@ export default function Home() {
         </section>
 
         {/* Timeline */}
-        <section className="py-1 px-4">
+        <section className="py-0 px-4">
           <div className="max-w-4xl mx-auto">
             <JourneyTimeline
               currentStep={currentStep}
