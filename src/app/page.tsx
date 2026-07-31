@@ -36,6 +36,14 @@ export default function Home() {
 
   return (
     <div className="bg-gradient-to-br from-cream via-sage-50 to-lavender-50 min-h-screen">
+      {/* Left decorative gradient */}
+      <div className="fixed left-0 top-0 w-40 h-full bg-gradient-to-r from-sage-100 to-transparent opacity-20 pointer-events-none" />
+
+      {/* Right decorative gradient */}
+      <div className="fixed right-0 top-0 w-40 h-full bg-gradient-to-l from-teal-100 to-transparent opacity-20 pointer-events-none" />
+
+      {/* Main content */}
+      <div className="relative z-10">
       {/* Hero Section */}
       <section className="py-8 px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
@@ -46,6 +54,7 @@ export default function Home() {
             Select your current stage below. This app will help you understand what&rsquo;s happening around you
             and answer questions about tests, procedures, and medical terms.
           </p>
+          </div>
         </div>
       </section>
 
