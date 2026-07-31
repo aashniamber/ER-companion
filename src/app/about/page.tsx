@@ -37,7 +37,7 @@ export default function About() {
             <div className="bg-white/80 rounded-3xl p-8 border-2 border-sage-200">
               <div className="flex items-start gap-4 mb-4">
                 <Brain className="text-sage-600 flex-shrink-0" size={32} />
-                <h2 className="text-3xl font-bold italic text-gray-800">What Happens Now?</h2>
+                <h2 className="text-3xl font-bold text-gray-800">What Happens Now?</h2>
               </div>
               <p className="text-gray-700 leading-relaxed">
 It's often the first question people have after walking into an emergency room.
